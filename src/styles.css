@@ -1,0 +1,71 @@
+
+.header {
+    padding: 25px;
+    box-shadow: 0 1px 10px rgba(0,0,0,.09);
+    position: static;
+}
+
+.f-r-jsb-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.subheader-1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subheader-2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.photo {
+   /* border-radius: 50%; */
+   animation: mymove 3s;
+   animation-iteration-count: infinite;
+   height: 300px;
+   width: 300px; 
+   border:3px solid black;
+   border-radius: 50%;
+   
+}
+@keyframes mymove {
+    0%, 100% {
+        margin-top: 0;
+      }
+      50% {
+        margin-top:30px;
+        border-top-right-radius: 40%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        border-top-left-radius: 40%;
+
+      }
+  }
+
+.iconstyle {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.techCard {
+    box-shadow: 0.5px 1px 5px 0.25px grey;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    min-width: 35px;
+    text-align: center;
+}
