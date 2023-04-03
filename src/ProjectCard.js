@@ -19,7 +19,7 @@ function ProjectCard({index}) {
         {index%2==1?
         <div style={{width:"50%",height:"350px", display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"space-between"}}>
             <div className='subheader' style={{fontSize:"17px",marginTop:"50px"}}>COINDOM 🪙</div>
-            <div className='subheader' style={{fontSize:"17px",color:"grey",width:"80%",textAlign:"center",marginTop:"-20px"}}>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time .</div>
+            <div className='subheader' style={{fontSize:"1.2rem",color:"grey",width:"80%",textAlign:"center",marginTop:"-20px", fontWeight:"500"}}>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time .</div>
                 <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",width:"150px",marginTop:"-30px"}}>
                     <div className='techCard'>React</div>
                     <div className='techCard'>Css</div>
@@ -39,7 +39,7 @@ function ProjectCard({index}) {
       {index%2==0?
       <div style={{width:"50%",height:"350px", display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"space-between"}}>
           <div className='subheader' style={{fontSize:"17px",marginTop:"50px"}}>COINDOM 🪙</div>
-          <div className='subheader' style={{fontSize:"17px",color:"grey",width:"80%",textAlign:"center",marginTop:"-20px"}}>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time .</div>
+          <div className='subheader' style={{fontSize:"1.2rem",color:"grey",width:"80%",textAlign:"center",marginTop:"-20px",fontWeight:"500"}}>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time .</div>
               <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",width:"150px",marginTop:"-30px"}}>
                   <div className='techCard'>React</div>
                   <div className='techCard'>Css</div>

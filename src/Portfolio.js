@@ -9,7 +9,9 @@ function Portfolio() {
         paddingTop:"23px",
         paddingBottom:"23px",
         borderRadius:"10px",
-        paddingLeft:"15%"
+        paddingLeft:"15%",
+        fontFamily:"Mulish,sans-serif"
+
         }}>
         <div style={{fontWeight:"550",color:"#147efb"}}>Portfolio</div>
         <div style={{marginTop:"10px", fontWeight:"650",color:"black", fontSize:"20px"}} >This project is a unique piece of development </div>
