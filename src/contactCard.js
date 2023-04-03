@@ -9,7 +9,7 @@ function ContactCard() {
         paddingTop:"50px",
         }}>
         <div style={{marginTop:"30px", fontWeight:"550",color:"#147efb"}}>CONTACT</div>
-        <div style={{marginTop:"10px", fontWeight:"650",color:"black", fontSize:"20px"}}>Don't be shy! Hit me up!</div>
+        <div style={{marginTop:"10px", fontWeight:"650",color:"black", fontSize:"20px"}}>Don't be shy! Hit me up!👇</div>
         <div style={{marginTop:"20px", display:"flex", alignItems:"center"}}>
             <div style={{
                 display:'flex', 
@@ -25,7 +25,7 @@ function ContactCard() {
             </div>
             <div style={{marginLeft:"20px"}}>
                 <div style={{color:"#2d2e32"}}>Mail</div>
-                <div style={{color:"##767676"}}>banothpremkumar001@gmail.com</div>
+                <div style={{color:"##767676", overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",width:"100%"}}>banothpremkumar001@gmail.com</div>
             </div>
 
         </div>

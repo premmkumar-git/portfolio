@@ -16,7 +16,7 @@ function Portfolio() {
         <div style={{fontWeight:"550",color:"#147efb"}}>Portfolio</div>
         <div style={{marginTop:"10px", fontWeight:"650",color:"black", fontSize:"20px"}} >This project is a unique piece of development </div>
         <div>
-          {[1,1].map((item,index)=>
+          {[1].map((item,index)=>
             <ProjectCard index={index} />
           )}
         </div>
