@@ -95,9 +95,9 @@
         display: flex; 
         flex-direction: column;
         align-items: center; 
-        background-color: #F8F8F8; 
-        min-height:  90vh;  
-        padding-bottom: 10px;
+        /* background-color: #F8F8F8;  */
+        min-height:  70vh;  
+        /* padding-bottom: 10px; */
     }
 
 .subMain {
@@ -142,8 +142,25 @@
     #topPhotoHide {display: none;}
     #maincard {flex-direction: row; }
     #aboutMeMain {width: 73%;padding:"20px"}
+    #hidenButton {display: none;}
     /* #aboutMeText {text-align: left;} */
 
 
 }
+
+.Live {
+    /* border-radius: 50%; */
+    animation: myLive 1.5s;
+    animation-iteration-count: infinite;
+    
+ }
+ @keyframes myLive {
+     0%, 100% {
+         opacity: 1;
+       }
+       50% {
+     opacity: 0;
+ 
+       }
+   }
 

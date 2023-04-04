@@ -1,14 +1,18 @@
 import { GithubFilled, LinkedinFilled } from '@ant-design/icons'
-import React from 'react'
+import { Tooltip } from 'antd';
+import React, { useState } from 'react'
 import photo from '../src/shared/photo.jpeg'
+import Brigosha from './brigosha';
+import Oracle from './Oracle';
 import './styles.css';
 
 
 function Mainpage() {
-   
-      
+    const [isModalOpen, setIsModalOpen] = useState(false)
+    const [isOrclModalOpen, setIsOrclModalOpen] = useState(false)
+
   return ( 
-    <div style={{width:"100%",marginTop:"5px"}}> 
+    <div style={{width:"100%",marginTop:"5px", backgroundColor:"#F8F8F8",minHeight:"90vh",fontFamily:"sans-serif"}}> 
     
         <div 
         id = 'maincard'
@@ -42,6 +46,7 @@ function Mainpage() {
                     <div>JAVASCIPT</div>
                 </div>
             </div>
+              
 
             </div>
             <div id='hidephotoId' className='hidephoto' >
@@ -50,8 +55,17 @@ function Mainpage() {
                     src={photo} alt="" />
             </div>
         </div>
+        <div className='subheader' style={{marginLeft:"15%",padding:"10px",color:"grey",fontSize:"18px",paddingLeft:"0px"}}>Work Experience :</div>
+        <div style={{color:"black",padding:"10px",display:"flex",paddingLeft:"0px",alignItems:"center",width:"80%",marginLeft:"15%",marginRight:"15%"}}>
+                    <div onClick={()=>{setIsModalOpen(true)}} className='subheader' style={{color:"#318CE7",fontSize:"15px",cursor:"pointer"}} >Brigosha Technologies</div>
+              
+                    <div style={{backgroundColor:"grey",width:"5%",height:"2px",marginLeft:"1%"}}></div>
+                     <div onClick={()=>{setIsOrclModalOpen(true)}} className='subheader' style={{marginLeft:"1%",color:"red",fontSize:"15px",cursor:"pointer"}}>Oracle India</div>
+                 </div>
+                 <div style={{marginLeft:"15%",color:"#B8B8B8"}}>Note: Please click on the company name for more information!</div>
+       <Brigosha isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+       <Oracle isModalOpen={isOrclModalOpen} setIsModalOpen={setIsOrclModalOpen} />
 
-       
     </div>
   )
 }

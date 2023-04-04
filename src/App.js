@@ -10,7 +10,7 @@ import Notification from './shared/notification';
 
 
 function App() {
-   const [value, setValue] = useState(1)
+   const [value, setValue] = useState(0)
     useEffect(() => {
       let details = navigator.userAgent;
   
