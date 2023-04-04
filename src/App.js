@@ -11,6 +11,7 @@ import Notification from './shared/notification';
 
 function App() {
    const [value, setValue] = useState(0)
+   const [phone, setPhone] = useState(false)
     useEffect(() => {
       let details = navigator.userAgent;
   
@@ -22,7 +23,7 @@ function App() {
       /* Using test() method to search regexp in details
       it returns boolean value*/
       let isMobileDevice = regexp.test(details);
-        
+      setPhone(isMobileDevice);
       if (isMobileDevice) {
           console.log("You are using a Mobile Device");
       } else {
@@ -58,7 +59,7 @@ function App() {
             <Portfolio/>
           </div>
           <div >
-            <ContactCard/>
+            <ContactCard phone={phone}/>
           </div>
           <div id="4">
             <Footer/>

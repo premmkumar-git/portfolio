@@ -3,13 +3,12 @@ import ProjectCard from './ProjectCard'
 
 function Portfolio() {
   return (
-    <div style={{
+    <div id='projcard' style={{
         marginTop:"30px",
         backgroundColor:"#F8F8F8",
         paddingTop:"23px",
         paddingBottom:"23px",
         borderRadius:"10px",
-        paddingLeft:"15%",
         fontFamily:"Mulish,sans-serif"
 
         }}>

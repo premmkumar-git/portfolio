@@ -44,7 +44,7 @@ function ProjectCard({index}) {
       {index%2==0?
       <div id='projectDiscId' className='projectDisc' style={{height:"350px", display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"space-between"}}>
           <span className='Live' style={{ fontWeight:"600",color:"red",width:"80%",textAlign:"center"}}>In-progress</span>
-          <div className='subheader' style={{fontSize:"17px",textAlign:"center"}}>COINCRUX 🪙  </div>
+          <div className='subheader' style={{fontSize:"17px",textAlign:"center",marginBottom:"10px"}}>COINCRUX 🪙  </div>
           <div className='subheader' style={{fontSize:"1.2rem",color:"grey",width:"80%",textAlign:"center",marginTop:"-20px",fontWeight:"500",overflow:"scroll"}}>Coincrux is a crypto app that allows users to search for information about various cryptocurrencies in real-time .</div>
               <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",width:"150px"}}>
                   <div className='techCard'>React</div>

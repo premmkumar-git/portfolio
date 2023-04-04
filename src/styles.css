@@ -117,6 +117,7 @@
     width: 50%
 }
 
+
 @media screen and (max-width: 900px) {
     #hide {display: none;}
     #hidephotoId {display: none;}
@@ -127,6 +128,7 @@
     #projectDiscId { width: 100%;}
     #footerId {display: none;}
     #techStack {display: none;}
+    #projcard {padding-left: 8%;}
     /* #aboutMeMain {width: 100%;} */
 
   }
@@ -136,6 +138,7 @@
     align-items: center;
     justify-content: center;
     display:"flex";
+    height: 400px;
   }
 
   @media screen and (min-width: 901px) {
@@ -143,6 +146,8 @@
     #maincard {flex-direction: row; }
     #aboutMeMain {width: 73%;padding:"20px"}
     #hidenButton {display: none;}
+    #projcard {padding-left: 15%;}
+
     /* #aboutMeText {text-align: left;} */
 
 

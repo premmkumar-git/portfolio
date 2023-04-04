@@ -12,7 +12,7 @@ function Mainpage() {
     const [isOrclModalOpen, setIsOrclModalOpen] = useState(false)
 
   return ( 
-    <div style={{width:"100%",marginTop:"5px", backgroundColor:"#F8F8F8",minHeight:"90vh",fontFamily:"sans-serif"}}> 
+    <div style={{width:"100%",marginTop:"5px", backgroundColor:"#F8F8F8",minHeight:"90vh",fontFamily:"sans-serif",paddingBottom:"20px"}}> 
     
         <div 
         id = 'maincard'

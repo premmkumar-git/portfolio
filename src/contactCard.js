@@ -1,11 +1,11 @@
 import { MailTwoTone } from '@ant-design/icons'
 import React from 'react'
 
-function ContactCard() {
+function ContactCard({phone}) {
   return (
     <div style={{
         height:"230px",
-        paddingLeft:"15%",
+        paddingLeft:phone? "10%": "15%",
         paddingTop:"50px",
         }}>
         <div style={{marginTop:"30px", fontWeight:"550",color:"#147efb"}}>CONTACT</div>
