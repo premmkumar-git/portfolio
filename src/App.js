@@ -42,6 +42,7 @@ function App() {
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: 'smooth' });
+      setValue(0);
     }
   };
   return (

@@ -5,7 +5,7 @@ function ContactCard({phone}) {
   return (
     <div style={{
         height:"230px",
-        paddingLeft:phone? "10%": "15%",
+        paddingLeft:phone? "5%": "15%",
         paddingTop:"50px",
         }}>
         <div style={{marginTop:"30px", fontWeight:"550",color:"#147efb"}}>CONTACT</div>
