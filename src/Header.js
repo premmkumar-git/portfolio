@@ -9,7 +9,7 @@ import './styles.css';
     window.location.href = "resume.pdf";
   }
    return (
-     <div className='header f-r-jsb-a'>
+     <div className='header f-r-jsb-a prevent-select'>
       <iframe id="my_iframe" style={{display:"none"}}></iframe>
 
         <div onClick={()=>{setValue(1)}} className='subheader cursor-pointer hoverbutton-1'>
