@@ -9,7 +9,7 @@ import './styles.css';
     window.location.href = "resume.pdf";
   }
    return (
-     <div className='header f-r-jsb-a prevent-select'>
+     <div className='header f-r-jsb-a prevent-select' style={{ backgroundImage: "linear-gradient(to left, #c33764 , #2d3580)",color:"white"}}>
       <iframe id="my_iframe" style={{display:"none"}}></iframe>
 
         <div onClick={()=>{setValue(1)}} className='subheader cursor-pointer hoverbutton-1'>
@@ -24,7 +24,7 @@ import './styles.css';
 
         </div>
         
-        <div id="hide" className='f-r-jsb-a subheader-1' style={{width : "500px"}}>
+        <div id="hide" className='f-r-jsb-a subheader-1' style={{width : "500px",color:"white"}}>
         <div style={{display:"flex"}}>
         <a href="/resume.pdf" download >
         <Button type="primary" onClick={()=>{download()}} icon={<DownloadOutlined  />} size={'large'}>
